@@ -16,6 +16,10 @@ menu:
   关于:
     url: /about
     icon: fa-user-circle-o
+  友链:
+    url: /friends
+    icon: fa-friends
+
 
 # index page dream text,
 # 配置首页显示"梦想"的语句.
@@ -59,8 +63,8 @@ reward:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: 写代码的
-  introduction: 喜欢每天都在进步的自己
+  career: 
+  introduction: 感谢你点开这个页面来了解我。立志做技术，喜欢研究计算机底层技术和架构、高性能网络编程。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
