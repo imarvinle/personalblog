@@ -119,9 +119,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - /gallery/xiaoju1.jpg
+    - /gallery/xiaoju2.jpg
+    - /gallery/compaus.jpeg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
