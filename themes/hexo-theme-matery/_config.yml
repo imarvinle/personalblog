@@ -167,6 +167,14 @@ githubLink:
   url: https://github.com/blinkfox/hexo-theme-matery
   title: Fork Me
 
+
+# friends
+friends:
+  Duwenli:
+    path: https://www.duwenli.cn
+    name: duwenli
+    length: 5
+
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages: 
