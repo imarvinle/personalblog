@@ -121,7 +121,7 @@ myGallery:
   data:
     - /gallery/xiaoju1.jpg
     - /gallery/xiaoju2.jpg
-    - /gallery/compaus.jpeg
+    - /gallery/compaus.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
