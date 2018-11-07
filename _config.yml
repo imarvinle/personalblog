@@ -81,7 +81,14 @@ prism_plugin:
   theme: 'tomorrow'
   line_number: false    # default false
   custom_css:
+  
 
+# search
+
+search:
+  path: search.xml
+  field: post
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
