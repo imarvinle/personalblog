@@ -16,7 +16,7 @@ var hashCode = function (str) {
 };
 var i = 0;
 var isTag = is_tag();
-var myFriends = config.friends.data;
+var myFriends = friends.data;
 %>
 
 <div id="tags" class="container chip-container">
@@ -33,7 +33,7 @@ var myFriends = config.friends.data;
                 %>
                 <a href="<%- url_for(myFriends[firend].path) %>" title="<%- myFriends[firend].name %>: <%- myFriends[firend].length %>">
                     <span class="chip center-align waves-effect waves-light chip-default"
-                            data-tagname="<%- tag.name %>" style="background-color: <%- color %>;"><%- myFriends[firend].name %>
+                            data-tagname="<%- myFriends[firend].name %>" style="background-color: <%- color %>;"><%- myFriends[firend].name %>
                         <span class="tag-length"><%- myFriends[firend].length %></span>
                     </span>
                 </a>
