@@ -18,7 +18,7 @@ menu:
     icon: fa-user-circle-o
   友链:
     url: /friends
-    icon: fa-friends
+    icon: fa-user-friends
 
 
 # index page dream text,
@@ -64,8 +64,8 @@ reward:
 profile:
   avatar: /medias/avatar.jpg
   career: 
-  introduction: 感谢你点开这个页面来了解我。立志做技术，喜欢研究计算机底层技术和架构、高性能网络编程。
-
+  introduction: 感谢你点开这个页面来了解我。我立志做技术，喜欢研究计算机底层技术和架构、高并发网络编程。
+ 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
