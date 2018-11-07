@@ -88,7 +88,23 @@ prism_plugin:
 search:
   path: search.xml
   field: post
-  
+
+# 中文链接转拼音量
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
