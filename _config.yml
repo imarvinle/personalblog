@@ -4,17 +4,17 @@
 
 # Site
 title: Marvinle
-subtitle: 
+subtitle: 思维改变生活
 description: 认真的人，自带光芒
 keywords: 编程
 author: Marvinle
 language: zh-CN
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://marvinle.cn
-root: /blog
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,7 +79,7 @@ theme: hexo-theme-matery
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
   theme: 'tomorrow'
-  line_number: false    # default false
+  line_number: true    # default false
   custom_css:
   
 
