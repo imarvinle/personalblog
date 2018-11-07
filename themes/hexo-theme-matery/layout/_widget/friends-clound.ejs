@@ -17,7 +17,7 @@ var hashCode = function (str) {
 var i = 0;
 var isTag = is_tag();
 var myFriends = theme.friends;
-console.log(myFriends.length);
+console.log(myFriends);
 %>
 
 <div id="tags" class="container chip-container">
@@ -29,13 +29,13 @@ console.log(myFriends.length);
                 <% Object.keys(myFriends).forEach(function(friend) { %>
                 <%
                     i++;
-                    var color = i >= colorCount ? colorArr[Math.abs(hashCode(myFriends[firend].name) % colorCount)]
+                    var color = i >= colorCount ? colorArr[Math.abs(hashCode(myFriends[friend].name) % colorCount)]
                             : colorArr[i - 1];
                 %>
-                <a href="<%- url_for(myFriends[firend].path) %>" title="<%- myFriends[firend].name %>: <%- myFriends[firend].length %>">
+                <a href="<%- url_for(myFriends[friend].path) %>" title="<%- myFriends[friend].name %>: <%- myFriends[friend].length %>">
                     <span class="chip center-align waves-effect waves-light chip-default"
-                            data-tagname="<%- myFriends[firend].name %>" style="background-color: <%- color %>;"><%- myFriends[firend].name %>
-                        <span class="tag-length"><%- myFriends[firend].length %></span>
+                            data-tagname="<%- myFriends[friend].name %>" style="background-color: <%- color %>;"><%- myFriends[friend].name %>
+                        <span class="tag-length"><%- myFriends[friend].length %></span>
                     </span>
                 </a>
                 <% }); %>
