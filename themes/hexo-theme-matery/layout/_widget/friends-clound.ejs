@@ -17,13 +17,12 @@ var hashCode = function (str) {
 var i = 0;
 var isTag = is_tag();
 var myFriends = theme.friends;
-console.log(myFriends);
 %>
 
 <div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
-            <div class="tag-title center-align"><%= __('postTagTitle') %></div>
+            <div class="tag-title center-align"><%= __('friendChain') %></div>
             
             <div class="tag-chips">
                 <% Object.keys(myFriends).forEach(function(friend) { %>
@@ -32,10 +31,10 @@ console.log(myFriends);
                     var color = i >= colorCount ? colorArr[Math.abs(hashCode(myFriends[friend].name) % colorCount)]
                             : colorArr[i - 1];
                 %>
-                <a href="<%- url_for(myFriends[friend].path) %>" title="<%- myFriends[friend].name %>: <%- myFriends[friend].length %>">
+                <a href="<%- url_for(myFriends[friend].path) %>"  target="_blank" title="<%- myFriends[friend].name %>: <%- myFriends[friend].length %>">
                     <span class="chip center-align waves-effect waves-light chip-default"
                             data-tagname="<%- myFriends[friend].name %>" style="background-color: <%- color %>;"><%- myFriends[friend].name %>
-                        <span class="tag-length"><%- myFriends[friend].length %></span>
+                        <!-- <span class="tag-length"><%- myFriends[friend].length %></span> -->
                     </span>
                 </a>
                 <% }); %>
