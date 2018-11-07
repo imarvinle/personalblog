@@ -9,7 +9,7 @@ categories:
 - 算法
 ---
 
-``` C++
+```cpp
 class Solution {
 public:
     string longestPalindrome(string s)
