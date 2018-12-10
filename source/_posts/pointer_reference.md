@@ -1,7 +1,7 @@
 ---
 title: 从汇编看指针和引用
 date: 2018-12-10
-comment: true
+comments: true
 tags:
 - C++
 - 汇编
