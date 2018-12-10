@@ -3,10 +3,10 @@ title: csapp-bomb实验
 date: 2018-9-21
 comments: true
 tags:
-csapp
-逆向
+- csapp
+- 逆向
 categories:
-csapp
+- csapp
 ---
 
 ## 实验材料
